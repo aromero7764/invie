@@ -1,0 +1,117 @@
+
+* {
+    margin: 0 0 0 0;
+     /* border: 1px solid red;  */
+    padding: 0 0 0 0;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: darkslategrey;
+}
+
+
+
+.header img {
+    float: left;
+    margin-top: 10px;
+    
+}
+
+.menu a {
+    
+    display: inline;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 12px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    border-right: 1px solid #fff;
+    justify-self: end;
+       
+}
+
+
+
+div ol {
+    float: right;
+    margin-top: 10px;
+    padding-right: 30px;
+    
+} 
+
+body {
+    background-color: aliceblue;
+   
+}
+
+.buscador {
+    text-align:right;
+    margin: 5px 10px 2px 0;
+
+}
+.portada_padre {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background: url(https://i.ibb.co/jhdwxKY/cursos-gratis-decoracion-interiores.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+.consejos {
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    background-color: white; 
+    opacity: 0.5; 
+    margin: 260px auto;
+    margin-left: 20px;
+    padding: 0 10px 0 10px;
+    
+}
+
+.consejos h3 {
+    height: 60px;
+    margin: 5px;
+    font-size: 12px;
+    border-bottom: 1px solid black;
+}
+
+.user {
+    font-size: 10px;
+    
+}
+
+.articulos  {
+    margin: 30px 50px 0 30px;
+
+}
+
+.padre {
+    width: 900px;
+    margin: 20px auto; /* centra el contenido */
+    background: white;
+}
+
+.padre div {
+    
+    display: flex; /*le aplico displayflex para poderle aplicar la prodiedad flex warap ajuste de linea y justifico contenido centro */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+    
+}
+
+
+.productos {
+    width: 250px;
+    height: 200px;
+    border: black solid 1px;
+    
+    
+    
+}
+
